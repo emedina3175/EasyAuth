@@ -1,6 +1,6 @@
 # EasyAuth
 
-## Descripción del Proyecto
+## About the project
 
 This resource will be used like a scaffolding for developing new project without lost time creating security logic business.
 

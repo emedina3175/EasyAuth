@@ -1,17 +1,16 @@
 # Change Log
-En este archivo se indican los cambios notables realizados al proyecto en forma cronológica.
 
 ## Versión [1.0.0]
-`PD ClearQuest` - `Instalación YYYY-MM-DD`
+`No available`
 
-### Adiciones
+### Add
 - Demo 1, detalle
 - Demo 2, detalle
 
-### Mejoras
+### Improvements
 - Demo 1, detalle
 - Demo 2, detalle
 
-### Correcciones
+### Corrections
 - Demo 1, detalle
 - Demo 2, detalle

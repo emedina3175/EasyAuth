@@ -22,8 +22,6 @@ This resource will be used like a scaffolding for developing new project without
 - Angular 2
 - NodeJS
 
-Sólo mencionar versiones de los componentes o tecnologías en caso de el sistema dependa de esa versión en específico.
-
 ## Contributors
 
 - Héctor García, <hfgarcia@thundercoders.com>

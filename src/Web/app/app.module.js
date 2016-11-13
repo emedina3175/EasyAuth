@@ -13,15 +13,37 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  */
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
+var forms_1 = require('@angular/forms');
+var http_1 = require('@angular/http');
+//Services
+var login_service_1 = require('./services/login.service');
+//Components
 var login_component_1 = require('./login/login.component');
+var register_component_1 = require('./register/register.component');
+var app_component_1 = require('./app.component');
+var primeng_1 = require('primeng/primeng');
+var app_routing_module_1 = require('./app-routing.module');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule],
-            declarations: [login_component_1.LoginComponent],
-            bootstrap: [login_component_1.LoginComponent]
+            imports: [
+                platform_browser_1.BrowserModule,
+                forms_1.FormsModule,
+                http_1.HttpModule,
+                app_routing_module_1.AppRoutingModule,
+                primeng_1.InputMaskModule
+            ],
+            declarations: [
+                login_component_1.LoginComponent,
+                register_component_1.RegisterComponent,
+                app_component_1.AppComponent
+            ],
+            bootstrap: [app_component_1.AppComponent],
+            providers: [
+                login_service_1.UserService
+            ]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);

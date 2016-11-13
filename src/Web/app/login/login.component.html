@@ -4,17 +4,18 @@
         <p id="profile-name" class="profile-name-card"></p>
         <form class="form-signin">
             <span id="reauth-email" class="reauth-email"></span>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <input type="text" name="userName" [(ngModel)]="model.username" class="form-control" placeholder="User Name" required autofocus>
+            <input type="password" name="password" [(ngModel)]="model.password" class="form-control" placeholder="Password" required>
             <div id="remember" class="checkbox">
                 <label>
                     <input type="checkbox" value="remember-me"> Remember me
                 </label>
             </div>
-            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
-        </form><!-- /form -->
-        <a href="#" class="forgot-password">
-            Register
+            <button class="btn btn-lg btn-primary btn-block btn-signin" (click)="login()" type="button">Sign in</button>
+        </form>
+
+        <a routerLink="/register" class="forgot-password">
+            I'm not a user
         </a>
     </div><!-- /card-container -->
 </div><!-- /container -->

@@ -1,12 +1,17 @@
 <html>
 <head>
+    <base href="/">
+
     <title>EasyAuth 1.0.0</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Load CSS Files-->
+    <link rel="stylesheet" type="text/css" href="node_modules/primeng/resources/themes/omega/theme.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/primeng/resources/primeng.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!-- 1. Load libraries -->
     <!-- Polyfill(s) for older browsers -->
@@ -21,11 +26,9 @@
     <script>
         System.import('app').catch(function(err){ console.error(err); });
     </script>
-
 </head>
-
 <!-- 3. Display the application -->
 <body>
-<login>Loading...</login>
+<easy-auth><i class="fa fa-refresh fa-spin fa-5x fa-fw"></i></easy-auth>
 </body>
 </html>

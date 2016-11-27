@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="card card-container">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <!--Email-->
+            <input type="email" name="email" [(ngModel)]="model.Email" class="form-control" placeholder="Email address" required />
+            <!--User Name-->
+            <input type="text" name="userName" [(ngModel)]="model.UserName" class="form-control" placeholder="User Name" required />
+            <!--First Name-->
+            <input type="text" name="firstName" [(ngModel)]="model.FirstName" class="form-control" placeholder="First Name" required />
+            <!--Last Name-->
+            <input type="text" name="lastName" [(ngModel)]="model.LastName" class="form-control" placeholder="Last Name" required />
+            <!--Password-->
+            <input type="password" name="password" [(ngModel)]="model.Password" class="form-control" placeholder="Password" required />
+            <!--Confirm Password-->
+            <input type="password" name="confirmPassword" [(ngModel)]="model.ConfirmPassword" class="form-control" placeholder="Confirm Password" required />
+
+            <button class="btn btn-lg btn-primary btn-block btn-signin" type="button" (click)="addUser()">Register me</button>
+        </form>
+        <a href="#" class="forgot-password">
+            Go to Login
+        </a>
+    </div><!-- /card-container -->
+</div><!-- /container -->

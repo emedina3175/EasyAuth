@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "ApiMega\Api.csproj", "{4B323AE3-8797-40EC-A299-38D732078177}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEasyAuth", "ApiEasyAuth\ApiEasyAuth.csproj", "{4B323AE3-8797-40EC-A299-38D732078177}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Tests", "ApiMega.Tests\Api.Tests.csproj", "{4C0DA13A-77B9-433D-8AEC-36958DD5BDC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEasyAuth.Tests", "ApiEasyAuth.Tests\ApiEasyAuth.Tests.csproj", "{4C0DA13A-77B9-433D-8AEC-36958DD5BDC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{14592852-3566-4E5B-A9B7-93EC85315CDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEasyAuth.Data", "ApiEasyAuth.Data\ApiEasyAuth.Data.csproj", "{14592852-3566-4E5B-A9B7-93EC85315CDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

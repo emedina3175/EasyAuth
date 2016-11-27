@@ -24,8 +24,7 @@ namespace ApiMega.Models
             var myMessage = new MailMessage();
 
             myMessage.To.Add(message.Destination);
-            myMessage.From = new System.Net.Mail.MailAddress(
-                                "Joe@contoso.com", "Joe S.");
+            myMessage.From = new System.Net.Mail.MailAddress("Joe@contoso.com", "Joe S.");
             myMessage.Subject = message.Subject;
             myMessage.AlternateViews.Add(AlternateView.CreateAlternateViewFromString(message.Body, null, MediaTypeNames.Text.Html));
 
